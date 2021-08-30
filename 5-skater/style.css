@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.6rem;
+    background: #222222;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.links ul li a {
+    text-decoration: none;
+    padding: 2rem;
+    color: white;
+    opacity: .9;
+}
+
+.links{
+    display:inline-flex;
+    
+}
+
+
+ul{
+    list-style-type: none;
+    display:flex;
+    
+}
+
+
+
+.header-tag{
+    display: inline-block;
+}
+
+.header-tag a{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: darkorange;
+    text-decoration: none;
+}
+
+
+.container{
+    width: 100%
+}
+
+.header{
+    z-index: 5;
+    background: #222;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    position: sticky;
+    top:0px;
+    justify-content:space-between;
+    border-bottom: 1px solid #333333;
+}
+
+#first{
+    position: relative;
+    
+
+    
+}
+
+#first:hover #second{
+    display: block;
+}
+
+#second{
+    width: 20rem;
+    background: white;
+    border-top: 2px solid darkorange;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    display: none;
+    
+    
+    
+}
+
+#second li a{
+    display: block;
+    padding: 1rem;
+    padding-left: 2rem;
+    color: black;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#second li a:hover{
+    background: rgba(186, 200, 213,.3);
+}
+.photo{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60rem;
+    background-image: url(skater.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+.content-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+
+.content-div h1{
+    font-size: 8rem;
+    letter-spacing: .4rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+.content-div button{
+    margin-top: 6rem;
+    background-color: transparent;
+    border:2px solid white;
+    padding: 1rem 2rem;
+    color: white;
+    font-size:1.8rem;
+    border-radius: .4rem;
+    outline:  none;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.content-div button:hover{
+    color: black;
+    background: white;
+    outline: 1px solid rgba(255, 139, 0, .5);
+}
+
+
+
+
+
+.services{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hfirst{
+   margin-top: 10rem;
+   text-align: center;
+   margin-bottom: 1rem;
+   font-size: 5rem;
+   color: darkorange;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.first-p{
+    display: block;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    opacity: .3;
+    letter-spacing: .1rem;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: "Rubik",sans-serif;
+}
+
+
+
+.box{
+    display: inline-block;
+   
+    width: 33%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+    
+}
+
+
+.photo-gallery i{
+    color: darkorange;
+    padding-bottom: 3rem;
+    font-size: 5rem;
+}
+
+.box h3{
+    text-transform: uppercase;
+    color
+    : white;
+    padding-bottom: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.3rem;
+    
+}
+
+.box p{
+    color:white;
+    opacity: .3;
+    letter-spacing: .1rem;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+}
+
+
+
+.photo-and-text{
+    display: flex;
+    width: 85%;
+    margin-top: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.gallery2{
+    
+    width:50%;
+    height:auto;
+    background-image:url(skater2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.blog-main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 8rem 12rem ;
+    padding-right: 5rem;
+    
+}
+
+.blog-main h2{
+    color: darkorange;
+    padding-bottom: 3rem;
+    font-family: "Oswald",sans-serif;
+    font-size: 3.1rem;
+}
+
+.blog-main p{
+    color:white;
+    opacity: .5;
+    letter-spacing: .1rem;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    
+}
+
+.blog-main p span{
+    display: block;
+    margin-top: 2rem;
+}
+
+
+.blog-main ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    
+}
+
+.blog-main ul li p{
+    display: inline-block;
+    margin-bottom: 1rem;
+    color:white;
+    opacity: .5;
+    letter-spacing: .1rem;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    
+}
+
+.blog-main ul li i{
+    color: darkorange;
+    padding-right: 2rem;
+    
+}
+
+
+#seconder{
+    margin-top: .5rem;
+    margin-bottom: 20rem;
+}
+#seconder .gallery2{
+    order: 2;
+}
+
+#seconder .blog-main{
+    padding-left: 6rem;
+}
+
+
+
+.video{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+}
+
+.views{
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20rem;
+}
+
+.views ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.views ul li{
+    width: 25%;
+    text-align: center;
+}
+
+
+
+.views-big{
+    color: darkorange;
+    font-size: 6rem;
+}
+
+.views ul li hr{
+    width: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    opacity: .4;
+    
+}
+
+.views-text{
+    color: white;
+    font-size: 400;
+}
+
+
+
+
+
+
+/*Our team*/
+
+.our-team{
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20rem;
+    flex-direction: column;
+    
+}
+
+.boxs-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6rem;
+    width: 100%;
+    height:auto;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: .5rem;
+    width: 31%;
+    height: 30rem; 
+    background-color: #333333;
+    
+}
+
+.box2:hover{
+    position: relative;
+    top: -3px;
+    left: 0;
+}
+
+.teachers img{
+    width: 15rem;
+    border-radius: 50%;
+}
+
+.box2 h3{
+    color: darkorange;
+    text-transform: uppercase;
+    font-family: "Oswald","sans-serif";
+    
+}
+
+.box2 p{
+    text-transform: uppercase;
+    color: rgba(255,255,255,.5);
+    font-size: 1.3rem;
+}
+
+.social li{
+    
+    width: 3rem;
+    height: 3rem;
+    background: darkorange;
+    margin-left: .5rem;
+    border-radius: .5rem;
+}
+
+.social li a{
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.social li a i{
+    display: block;
+    
+}
+
+.session-pricing{
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20rem;
+    flex-direction: column;
+}
+
+#box3{
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 31%; 
+    background-color: #333333;
+}
+
+#box3 h3{
+    color: white;
+    font-size: 2.5rem;
+    font-family: "Oswald",sans-serif;
+}
+
+#price{
+    color: darkorange;
+    font-size: 4rem;
+}
+
+#price span{
+    font-size: 1.6rem;
+    color: white;
+    opacity: .4;
+    text-transform: lowercase;
+}
+.price-p{
+    flex-direction: column;
+    
+}
+
+.price-p li{
+    color: rgba(255,255,255,.4);
+    margin-bottom: 3rem;
+    
+}
+.price-p li i{
+    color: greenyellow;
+    display: inline-block;
+    margin-right: 1rem;
+    opacity: .6;
+}
+
+#box3 button{
+    font-size: 1.8rem;
+    background: grey;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: .3rem;
+    transition: background-color .5s;
+}
+
+#box3 button:hover{
+    background-color:rgb(91, 81, 81);
+}
+
+
+.questions{
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20rem;
+    flex-direction: column;
+    
+}
+
+.questions h2{
+    text-align: center;
+    color: darkorange;
+    font-size: 3.2rem;
+    font-family: "Oswald","sans-serif";
+    margin-bottom: 12rem;
+}
+
+.question-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    
+    
+}
+.question{
+    display: inline-block;
+    width: 47%;
+    margin-bottom: 5rem;
+}
+
+.question h3{
+    font-family: "Oswald","sans-serif";
+    font-size: 2.4rem;
+    color: darkorange;
+    padding-bottom: 2rem;
+}
+.question p{
+    color:white;
+    opacity: .5;
+    font-family: "Rubik","Sans-serif";
+    font-weight: 100;
+    font-size: 1.7rem;
+}
+
+
+
+

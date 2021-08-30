@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.inclusiveContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+
+.StartMainContainer {
+    background-image: url(https://preview.colorlib.com/theme/hotell/images/img_1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 828px;
+}
+
+.opacityDark {
+    height: 100%;
+    background-color: rgba(1, 1, 1, .4);
+}
+
+
+
+
+
+
+
+
+/*startmain*/
+
+.StartMain {}
+
+
+.navbar {
+    padding: 2.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.navbar-brand h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+
+.navbar-nav {
+    padding-left: 16rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar-nav li {
+    padding: .5rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.5);
+    transition: .3s all;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.number i {
+    border-radius: 50%;
+    padding: 1.3rem;
+    background: rgba(255, 255, 255, 0.2);
+    font-size: 1.1rem;
+    border: 2px solid transparent;
+    transition: .3s all;
+
+}
+
+.number i:hover {
+    border: 2px solid white;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+
+}
+
+.number p {
+
+    margin: 0;
+    margin-right: 9rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    font-family: 'roboto';
+    font-weight: 600;
+
+}
+
+
+
+.middle-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6rem;
+
+
+}
+
+
+section h1 {
+    font-size: 5rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5rem;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.firstButton {
+    text-decoration: none;
+    color: white;
+    border-radius: 6rem;
+    padding: 15px 30px;
+    background: #00917C;
+    font-size: 14px;
+    font-family: 'roboto';
+}
+
+.firstButton:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/*SECONDARYMAİN*/
+
+
+.secondaryMain {
+    position: absolute;
+    background: red;
+    top: 80rem;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    z-index: 1;
+
+
+
+}
+
+.thirdMain {}
+
+
+
+
+.form-group {
+    color: grey;
+    border-radius: 5rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+
+.form-group .row {
+
+    border-radius: 5rem;
+    padding: 1rem;
+
+}
+
+input:active {
+
+    border: 1px solid grey;
+}
+
+.position-absolute {
+    z-index: 2;
+    background-color: white;
+}
+
+.form-control {
+    border: none;
+}
+
+
+
+
+
+
+
+/*THİRD MAİN*/
+
+
+
+
+
+
+.thirdMain {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+}
+
+
+
+.InfoContainer {
+    padding: 5rem;
+    padding-bottom: 3rem;
+}
+
+
+.thirdInfoH2 {
+    font-family: 'work sans', sans-serif;
+}
+
+
+#bbb {
+
+    font-size: 1.2rem;
+    color: #888;
+    transition: .3s all;
+    letter-spacing: .1rem;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bolder;
+}
+
+#bbb:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+.photo {
+    width: 9rem;
+    height: 9rem;
+}
+
+
+#our-services {
+    font-family: 'work sans', 'sans-serif';
+    font-weight: 700;
+    color: #00917c;
+    font-size: 24px;
+}
+
+#our-services1 {
+    font-family: 'work sans', 'sans-serif';
+    font-weight: 700;
+    color: #00917c;
+    font-size: 24px;
+}
+
+#our-services3 {
+    font-family: 'work sans', 'sans-serif';
+    font-weight: 700;
+    color: #00917c;
+    font-size: 24px;
+}
+
+
+
+.prev-next {
+    margin-top: 5rem;
+
+}
+
+.prev-next a {
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 4rem;
+    padding: .8rem 2rem;
+    color: rgba(0, 0, 0, .5);
+    transition: .3s all;
+}
+
+.prev-next a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .5);
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+/*FOURTH MAİN*/
+
+.fourthMain {
+    width: 100%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background: rgb(0, 145, 124);
+    background: linear-gradient(90deg, rgba(0, 145, 124, 1) 26%, rgba(255, 255, 255, 1) 26%);
+}
+
+
+
+/*FİFTH MAİN*/
+
+.fifthMain{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+

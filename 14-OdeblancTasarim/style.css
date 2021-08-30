@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    width: 100%;
+    height: 800px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.containe{
+    padding: 5rem 7rem;
+    width: 100%;
+    margin: 0;
+    height: 800px;
+    background: #F1F3F7;
+}
+
+
+
+.kobi h1{
+    color: #28304E;
+    
+}
+
+.paragraph{
+    margin-top:2rem; 
+    color: #28304E;
+    font-size: 1.49rem;
+}
+
+
+.col-3 div{
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 90%;
+    color: #28304E;
+    transition: .3s all;
+    
+}
+
+.asd{
+    transition: .3s all;
+}
+
+h6{
+    font-size: 1.2rem;
+    transition: .3s all;
+    
+}
+.div:hover{
+    width: 95%;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.div:hover h6{
+    font-size: 1.4rem;
+}
+
+.div:hover .asd{
+    width: 100%;
+}
+
+.asss{
+    font-size: .95rem;
+}
+
+.div:hover .asss{
+    font-size: .99rem;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   

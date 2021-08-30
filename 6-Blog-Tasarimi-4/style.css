@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+
+
+body {
+    font-size: 1.6rem;
+}
+
+
+
+
+#left {
+    display: none;
+    background-color: rgb(255, 109, 126);
+}
+
+
+#right {
+    width: 100%;
+    padding: 5%;
+    padding-top: 3rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: grey;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+#link {
+    color: red;
+}
+
+.bir {
+    padding-bottom: 13rem;
+    padding-top: 21rem;
+}
+
+
+.link {
+    color: white;
+    opacity: .6;
+    transition: .5s all;
+
+}
+
+.link:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+
+}
+
+.logo {
+
+    padding-bottom: 7.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.logo a img {
+    width: 17.5rem;
+}
+
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color: black;
+}
+
+.post {
+    width: 100%;
+    border: 1px solid rgba(5, 5, 5, .1);
+    border-top: 1px solid black;
+    background-image: url(https://site.groupe-psa.com/content/uploads/sites/9/2016/12/white-background-2.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: .5s all;
+
+}
+
+
+.post:hover {
+    background-image: url(http://www.demo.doganaydemir.com/wp-demo/zunday/wp-content/uploads/2019/01/photo-1539274412982-197087bd48d4-1024x683.jpeg);
+
+    border: none;
+}
+
+
+
+.post:hover h1,
+p,
+.info {
+    color: white;
+}
+
+.post:hover #post-text {
+    color: white;
+}
+
+.post:hover #read {
+    color: white;
+}
+
+.post p {
+    font-size: 1.05rem;
+}
+
+hr {
+    margin: auto;
+    width: 20%;
+    background-color: rgb(255, 109, 126);
+}
+
+#post-text {
+    font-size: 1.1rem;
+    color: darkgray;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+
+#read {
+
+    display: inline-block;
+    border: 1px solid rgba(5, 5, 5, .2);
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: .85rem;
+    color: rgba(5, 5, 5, .7);
+
+}
+
+
+.info {
+    margin-top: 2rem;
+    opacity: .8;
+    font-size: .9rem;
+}
+
+
+.categories-container {
+    border-top: 1px solid black;
+    border-bottom: 1px solid rgba(5, 5, 5, .2);
+
+}
+
+.categories-container hr {
+    width: 13%;
+    margin: 0;
+    height: .1rem;
+    background-color: rgb(255, 109, 126);
+
+}
+
+.bordered {
+
+    border-bottom: 1px solid rgba(5, 5, 5, .2);
+}
+
+.categories-container a {
+
+    color: grey;
+    font-size: .9rem;
+}
+
+.categories-container a:hover {
+    text-decoration: none;
+    color: rgb(255, 109, 126);
+}
+
+h6 {
+    letter-spacing: .2rem;
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+    
+    #right{
+        padding: 7%;
+        
+    }
+}
+    
+    
+}
+
+/*medium devices(md)*/
+@media (min-width: 768px) {
+    
+}
+
+
+
+/*large devices(lg)*/
+@media (min-width: 992px) {
+    
+    #left{
+        width: 4.5%;
+        display: block;
+    }
+    
+    #right{
+        width: 96.5%;
+        padding: 6.5rem;
+        
+    }
+        
+}
+
+
+/*small devices(xl)*/
+@media (min-width: 1200px) {
+
+    
+}

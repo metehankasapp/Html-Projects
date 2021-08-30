@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.buttons{
+    position: relative;
+    top: 10rem;
+    display: inline-flex;
+    flex-direction: column;
+    left: -10px;
+    
+}
+
+
+a {
+    font-family: sans-serif;
+    background: red;
+    position: relative;
+    left: -90px;
+    transition: .5s all;
+    padding: 1rem;
+    padding-right: 27px;
+    margin: .5rem;
+    text-decoration: none;
+    color: white;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+     
+}
+
+a i{
+    font-size: 20px;
+    position: relative;
+    right: -20px;
+    padding: 0;
+    margin-right: 30px;
+}
+
+a:hover{
+    left: 0px;
+}
+
+
+
+
+
+
+
+.fa-youtube{
+    
+    right: -37px;
+}
+
+.fa-spotify{
+    
+    right: -45px;
+}
+
+.fa-discord{
+    
+    right: -50px;
+}
+
+.fa-twitter{
+   
+    right: -51px;
+}
+
+.fa1{
+    background-color: #FF0000;
+}
+.fa2{
+    background-color: #1DB954;
+}
+
+.fa3{
+    background-color: 	#7289da;
+}
+
+.fa4{
+     background-color: #1DA1F2;
+}
+

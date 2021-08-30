@@ -1,0 +1,650 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+html{
+    font-size: 6px;
+}
+
+
+
+body{
+    width: 100%;
+    height: auto;
+    font-size: 1.6rem;
+    background-color: lightgrey;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+
+
+.wrapper{
+    width: 100%;  /* en son düzelt normalde 1200px gibi bir değer ver.*/
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: .5rem;
+	padding-right: .5rem;  
+}
+
+
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+
+
+.left-side{
+    width: 25%;
+    height:300rem;
+    box-sizing: border-box;
+    background-color: rgb(239, 239, 239);
+    display:none;
+    float: left;
+    
+}
+
+
+
+
+.right-side{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    
+    
+}
+
+
+
+
+
+
+/*left-side-start*/
+
+
+
+.sol-ust-logo{
+    box-sizing: border-box;
+    padding: 5rem;
+    text-align: left;
+}
+
+
+.sol-ust-logo #logo{
+    width: 15rem;
+    height: auto;
+    margin-bottom: 2.5rem;
+}
+
+
+.sol-ust-logo p{
+    font-size: 1.4rem;
+    color: #6c757d!important;
+}
+
+
+
+/*left-side-links*/
+
+
+
+
+
+.links{
+    padding: 5rem;
+    padding-top: 0;
+}
+
+
+.about-links li{
+    
+    display: block;
+}
+
+.about-links li a{
+    display: block;
+    padding: 1.4rem 1.6rem;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 500;
+    
+}
+
+.copyright{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*right-side-start*/
+
+
+.right-side{
+    padding: 4rem;
+    padding-right: 0;
+}
+
+
+.container{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.page-title{
+    text-align: left;
+}
+
+.page-title h2{
+    font-size: 3.2rem;
+    padding-bottom: 2rem;
+}
+
+
+.page-title p{
+    display: block;
+    width: 70%;
+    color: #6c757d;
+    line-height: 3.5rem;
+    padding-bottom: 5rem;
+}
+
+
+
+
+
+
+
+/*right-side item-container*/
+
+
+.share-container{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.item-container{
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+    width: 65%;
+    height: 100%;
+    padding-right: 3rem;
+    
+}
+
+
+
+
+/*right-side-about-conatiner*/
+
+
+.about-container{
+    padding: 5rem;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    
+    
+}
+
+
+
+
+
+
+
+
+.content{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10rem;
+}
+
+
+.content h2{
+    margin-bottom: 1rem;
+    font-weight: 600;
+    transition:  color .5s;
+    opacity: .7;
+}
+
+.content h2:hover{
+    color: rgb(17, 164, 255);
+    cursor: pointer;
+}
+
+.content-list li{
+    float: left;
+    padding-right: 3rem;
+    color: black;
+    opacity: .6;
+    font-weight: 600;
+    font-size: 1.4rem;
+    transition: color .5s;
+}
+
+.content-list li:hover{
+    color: rgb(17, 164, 255);
+    cursor: pointer;
+}
+
+
+.image-box{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+
+.post-image{
+    margin-bottom: 2rem;
+}
+.content img{
+    width: 100%;
+    border-radius: .5rem;
+    transition:  opacity .5s;
+}
+
+.content img:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+.post-text{
+    color: black;
+    opacity: 0.7;
+}
+
+
+.read-more{
+    
+}
+
+.read-more a {
+    display: inline-block;
+    border: 1px solid rgb(17, 164, 255);
+    letter-spacing: .1rem;
+    background: white;
+    padding: 1rem;
+    color: rgb(17, 164, 255);
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+
+.read-more a:hover{
+    color: #fff;
+    background: rgb(17, 164, 255);
+}
+
+
+.read-more i{
+    font-size: 1rem;
+    opacity: .7;
+}
+
+
+
+
+
+
+
+
+.about-container .search{
+    width: 100%;
+    padding: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    border: 1px solid grey;
+}
+
+.about-container input{
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
+.about-container i{
+    opacity: .6;
+    color: black;
+    transition: color .3s;
+}
+
+.about-container  .search i:hover{
+    color: rgb(17, 164, 255);
+    
+}
+
+
+
+.about-me{
+    padding: 2rem 0;
+}
+
+.about-me h5{
+    
+    text-align: left;
+    padding-bottom: 1.5rem;
+}
+
+
+
+
+.about-me hr{
+    margin-bottom:1.5rem;
+    opacity: .5;
+}
+
+.img-box{
+    padding-bottom: 1.5rem;
+}
+
+.profil-box img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    
+}
+
+
+.profil-box p{
+    padding-bottom: 6rem;
+    text-align: center;
+    opacity: .7;
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
+.subscribe h5{
+    text-align: left;
+    padding-bottom: 1.5rem;
+}
+
+.subscribe hr{
+    margin-bottom:1.5rem;
+    opacity: .5;
+}
+
+.social{
+    margin-bottom: 10rem;
+}
+.social li{
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.social i{
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: white;
+    background: black;
+}
+
+
+
+.categories{
+    margin-bottom: 5rem;
+}
+
+.categories h5{
+    text-align: left;
+    padding-bottom: 1.5rem;
+}
+
+
+.categories hr{
+    margin-bottom:1.5rem;
+    opacity: .5;
+}
+
+.categories ul li{
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+
+.categories a{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: black;
+    opacity: .8;
+    transition: .5s;
+}
+
+.categories a:hover{
+    color: rgb(17, 164, 255); 
+}
+
+
+
+
+.popular-posts h5{
+    text-align: left;
+    
+}
+
+.popular-posts hr{
+    margin-top: 1.5rem;
+    margin-bottom:1.5rem;
+    opacity: .5;
+}
+
+
+
+
+.pst-container{
+    
+    width: 100%;
+    height: auto; /* bu hatayı bidaah yapma remli yapma sakın*/
+    font-size: 1.3rem;
+}
+
+
+
+.pst-container img{
+    display: inline-block;
+    width: 7rem;
+    height: auto;
+    float: left;
+    margin-right: 2rem;
+}
+
+
+.pst-container p{
+    text-align: left;
+}
+
+
+.datee{
+    opacity: .6;
+}
+
+
+
+
+
+
+
+.text-widget{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.text-widget h5{
+    text-align: left;
+    padding-bottom: 1.5rem;
+}
+
+
+.text-widget hr{
+    margin-bottom: 1.5rem;
+    opacity: 0.5;
+}
+
+
+.text-widget p{
+    font-size: 1.4rem;
+    text-align: left;
+    line-height: 1.5;
+    opacity: .6;
+}
+
+
+
+.tags h5{
+    text-align: left;
+    padding-bottom: 1.5rem;
+}
+
+
+.tags hr{
+    margin-bottom: 1.5rem;
+    opacity: 0.5;
+}
+
+.tags li{
+    font-size: 1rem;
+    display: inline-block;
+    border: 1px solid grey;
+    padding: .6rem;
+    margin: .5rem;
+    float: left;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:470px){
+    .wrapper{
+        max-width: 450px;
+    }
+    
+    
+    html{
+        font-size:8px;
+    }
+    
+    
+   
+}
+
+
+@media(min-width:720px){
+    
+    
+    .wrapper{
+        max-width: 700px;
+    }
+    
+    html{
+        font-size:8px;
+    }
+    
+    .left-side{
+        display:inline-block;
+    }
+    
+    
+    .right-side{
+        width: 75%;
+    }
+    
+    
+}
+
+
+
+@media(min-width:920px){
+    
+    .wrapper{
+        max-width: 900px;
+    }
+    
+    
+    
+    html{
+        font-size:9px;
+    }
+    
+    
+    
+}
+
+
+
+@media(min-width:1250px){
+    
+    
+    .wrapper{
+        max-width: 1200px;
+    }
+    
+    html{
+        font-size:10px;
+    }
+    
+    
+}
+
+
